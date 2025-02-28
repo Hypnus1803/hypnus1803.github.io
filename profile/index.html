@@ -38,11 +38,17 @@
         </main>
     </div>
     <script>
-        fetch('../FilesMD/lorem_ipsum.md')
-            .then(response => response.text())
+        fetch('../content/lorem_ipsum.md')
+            .then(response => {
+                if (!response.ok) {
+                    throw new Error('Network response was not ok');
+                }
+                return response.text();
+            })
             .then(text => {
                 document.getElementById('content').innerHTML = marked(text);
-            });
+            })
+            .catch(error => console.error('Error loading markdown file:', error));
     </script>
 </body>
 </html>
