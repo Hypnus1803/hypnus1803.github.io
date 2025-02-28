@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Profile</title>
+    <link rel="stylesheet" href="../css/profile.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+</head>
+<body>
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <h1><a href="profile.html">Jose Ivan Campos Rozo<br>Dr.rer.nat.</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="talks.html">Talks</a></li>
+                    <li><a href="blog.html">Blog Posts</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="../index.html"><img src="../images/icons/home.png" alt="Home Icon" class="home-icon"></a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <aside>
+            <img src="../images/my_profile.jpeg" alt="My Profile" class="profile-image">
+            <h2>Jose Ivan Campos Rozo</h2>
+            <p>With the sun guiding my road.</p>
+            <p><a href="mailto:rozo@asu.cas.cz"><img src="../images/icons/mail.png" alt="Email Icon"> e-mail</a></p>
+            <p><a href="https://orcid.org/0000-0001-8883-6790" target="_blank"><img src="../images/icons/orcid.png" alt="ORCID Icon"> ORCID</a></p>
+            <p><a href="https://github.com/Hypnus1803" target="_blank"><img src="../images/icons/github.png" alt="GitHub Icon"> GitHub</a></p>
+        </aside>
+        <main id="content"></main>
+    </div>
+    <script>
+        fetch('../content/lorem_ipsum.md')
+            .then(response => response.text())
+            .then(text => {
+                const converter = new showdown.Converter();
+                document.getElementById('content').innerHTML = converter.makeHtml(text);
+            })
+            .catch(error => {
+                console.error('Error fetching or rendering Markdown:', error);
+            });
+    </script>
+</body>
+</html>
