@@ -38,7 +38,7 @@
         </main>
     </div>
     <script>
-        fetch('../content/lorem_ipsum.md')
+        fetch('../FilesMD/lorem_ipsum.md')
             .then(response => response.text())
             .then(text => {
                 document.getElementById('content').innerHTML = marked(text);
