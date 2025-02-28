@@ -4,14 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>My Profile</title>
-    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="../css/profile.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
 </head>
 <body>
-    <h1>My Profile</h1>
-    <ul>
-        <li><a href="cv.html">CV</a></li>
-        <li><a href="publications.html">Publications</a></li>
-        <li><a href="projects.html">Projects</a></li>
-    </ul>
+    <header>
+        <div class="header-content">
+            <div class="header-left">
+                <h1><a href="index.html">My Full Name<br>My Degree</a></h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="cv.html">CV</a></li>
+                    <li><a href="publications.html">Publications</a></li>
+                    <li><a href="projects.html">Projects</a></li>
+                    <li><a href="talks.html">Talks</a></li>
+                    <li><a href="blog.html">Blog Posts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <div class="container">
+        <aside>
+            <img src="../images/my_profile.jpeg" alt="My Profile" class="profile-image">
+            <h2>My Full Name</h2>
+            <p>Short description of few words.</p>
+            <p><a href="mailto:myemail@example.com"><img src="../icons/email.png" alt="Email Icon"> myemail@example.com</a></p>
+            <p><a href="https://orcid.org/my-orcid" target="_blank"><img src="../icons/orcid.png" alt="ORCID Icon"> ORCID</a></p>
+            <p><a href="https://github.com/mygithub" target="_blank"><img src="../icons/github.png" alt="GitHub Icon"> GitHub</a></p>
+        </aside>
+        <main id="content">
+            <!-- Markdown content will be loaded here -->
+        </main>
+    </div>
+    <script>
+        fetch('../content/lorem_ipsum.md')
+            .then(response => response.text())
+            .then(text => {
+                document.getElementById('content').innerHTML = marked(text);
+            });
+    </script>
 </body>
 </html>
