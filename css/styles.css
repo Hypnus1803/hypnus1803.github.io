@@ -8,15 +8,26 @@ body {
     display: flex;
     justify-content: center;
     gap: 20px;
+    margin-top: 50px;
 }
 
 .circular-image {
     width: 150px;
     height: 150px;
     border-radius: 50%;
-    transition: transform 0.2s;
+    object-fit: cover;
 }
 
 .circular-image:hover {
     transform: scale(1.1);
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+a p {
+    margin-top: 10px;
+    font-size: 18px;
 }
