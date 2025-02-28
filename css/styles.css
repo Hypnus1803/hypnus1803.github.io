@@ -1,0 +1,22 @@
+body {
+    background: linear-gradient(to right, black, darkblue, gray);
+    color: white;
+    text-align: center;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.circular-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.2s;
+}
+
+.circular-image:hover {
+    transform: scale(1.1);
+}
