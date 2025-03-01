@@ -13,3 +13,23 @@ plugins:
 # Include the _data directory
 include:
   - _data
+
+# Exclude from processing
+exclude:
+  - README.md
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .gitignore
+  - .gitmodules
+  - .sass-cache
+  - .jekyll-cache
+  - .jekyll-metadata
+  - .DS_Store
+  - .vscode
+  - .vscodeignore
+  - .vscode/settings.json
+  - .vscode/tasks.json
+  - .vscode/launch.json
+

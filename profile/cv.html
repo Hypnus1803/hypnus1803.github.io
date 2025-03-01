@@ -1,17 +1,14 @@
 ---
 layout: default
-title: Curriculum Vitae
 ---
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- <title>Curriculum Vitae</title> -->
-    <title>{{ page.title }}</title>
+    <title>Curriculum Vitae</title>
     <link rel="stylesheet" href="../css/cv.css">
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script> -->
 </head>
 <body>
 <header>
@@ -37,9 +34,6 @@ title: Curriculum Vitae
         <img src="../images/my_profile.jpeg" alt="My Profile" class="profile-image">
         <h2>Jose Ivan Campos Rozo</h2>
         <p>With the sun guiding my road.</p>
-        <!-- <p><a href="mailto:rozo@asu.cas.cz"><img src="../images/icons/mail.png" alt="Email Icon"> e-mail</a></p>
-        <p><a href="https://orcid.org/0000-0001-8883-6790" target="_blank"><img src="../images/icons/orcid.png" alt="ORCID Icon"> ORCID</a></p>
-        <p><a href="https://github.com/Hypnus1803" target="_blank"><img src="../images/icons/github.png" alt="GitHub Icon"> GitHub</a></p> -->
         {% for section in site.data.resume %}
             <a href="#{{ section[0] }}">{{ section[0] | capitalize }}</a><br>
         {% endfor %}
@@ -51,6 +45,5 @@ title: Curriculum Vitae
         {% include resume.html %}
     </main>
 </div>
-
 </body>
 </html>
