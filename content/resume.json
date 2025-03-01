@@ -1,0 +1,216 @@
+{
+  "basics": {
+    "name": "Jose Ivan Campos Rozo",
+    "label": "Scientist",
+    "image": "",
+    "email": "jose.ivan.campos.rozo@asu.cas.cz",
+    "phone": "(+420) 603 591 439 ",
+    "url": "https://hypnus1803.github.io/",
+    "summary": "An enthusiastic physicist, working and playing around with solar images. Trying to understand our star and its behavior.",
+    "location": {
+      "address": "Fri&#269ova 298",
+      "postalCode": "251 65",
+      "city": "Ond&#345ejov",
+      "countryCode": "CZ",
+      "region": "Czech Republic"
+    },
+    "profiles": [
+      {
+        "network": "X (Former Twitter)",
+        "username": "hypnus1003",
+        "url": "https://x.com/hypnus1003"
+      }
+    ]
+  },
+  "work": [
+    {
+      "name": "Astronomical Institute of the Czech Academy of Sciences",
+      "position": "Postdoctoral researcher",
+      "url": "https://www.asu.cas.cz/en/departments/solar-department",
+      "startDate": "2023-10-03",
+      "endDate": "",
+      "summary": "Working in the understanding of the solar atmosphere and its magnetic field. Using data from the Solar Dynamics Observatory (SDO) and ground-based telescopes such as Gregor and SST.",
+      "highlights": ["Solar Physics"]
+    }
+  ],
+  
+  "education": [
+    {
+      "institution": "Karl-Franzens University of Graz",
+      "location": "Graz, Austria",
+      "url": "https://www.uni-gra.at/",
+      "area": "Institute of Physics",
+      "studyType": "PhD",
+      "startDate": "2017-04-01",
+      "endDate": "2023-09-25",
+      "score": "Very Good",
+      "courses": ["Solar Physics"]
+    },
+    {
+      "institution": "Universidad de Colombia",
+      "location": "Bogota, Colombia",
+      "url": "https://unal.edu.co/",
+      "area": "Observatorio Astronomico Nacional",
+      "studyType": "Magister",
+      "startDate": "2015-01-31",
+      "endDate": "2016-12-08",
+      "score": "Excellent",
+      "courses": ["Solar Physics"]
+    },
+    {
+      "institution": "Universidad de Colombia",
+      "location": "Bogota, Colombia",
+      "url": "https://unal.edu.co/",
+      "area": "Departamento de Fisica",
+      "studyType": "Physics",
+      "startDate": "2007-02-01",
+      "endDate": "2014-06-15",
+      "score": "Good",
+      "courses": ["Physics"]
+    }
+  ],
+  
+  "certificates": [
+    {
+      "name": "Intermediate PostgresSQL",
+      "date": "July 2021",
+      "issuer": "University of Michigan",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/M4VNNLNA34X2",
+      "icon": "fa-solid fa-location-dot"
+    },
+    {
+      "name": "Database Design and Basic SQL in PostgreSQL",
+      "date": "June 2021",
+      "issuer": "University of Michigan",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/KG2LWVRA237M",
+      "icon": "fa-solid fa-tag"
+    },
+    {
+      "name": "Machine Learning in the Enterprise",
+      "date": "March 17, 2021",
+      "issuer": "Google Cloud",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/5H83UXGNJB6L",
+      "icon": "fa-solid fa-envelope"
+    },
+    {
+      "name": "Feature Engineering",
+      "date": "February 25, 2021",
+      "issuer": "Google Cloud",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/5ZEA9FDVUJNV",
+      "icon": "fa-solid fa-hashtag"
+    },
+    {
+      "name": "Data-driven Astronomy",
+      "date": "December, 9, 2020",
+      "issuer": "The University of Sidney",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/ATCL294ZJ5K5",
+      "icon": "fa-solid fa-calendar"
+    },
+    {
+      "name": "Applied Machine Learning in Python",
+      "date": "September 28, 2020",
+      "issuer": "University of Michigan",
+      "url": "https://www.coursera.org/account/accomplishments/certificate/UK4C4FLHX9WK",
+      "icon": "fa-solid fa-clipboard-check"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Exploring magnetic field properties at the boundary of solar pores: A comparative study based on SDO-HMI observations.",
+      "publisher": "Astronomy &#38 Astrophysics",
+      "releaseDate": "June 2023",
+      "url": "https://www.aanda.org/articles/aa/pdf/2023/06/aa46389-23.pdf",
+      "doi": "10.1051/0004-6361/202346389",
+      "summary": "Solar pores are regions of intensified magnetic field strength compared to the surrounding photospheric environment, and their study can help us better understand the properties and behaviour of magnetic fields in the Sun."
+    },
+    {
+      "name": "Photospheric plasma and magnetic field dynamics during the formation of solar AR 11190.",
+      "publisher": "Astronomy &#38 Astrophysics",
+      "releaseDate": "February 2019",
+      "url": "https://www.aanda.org/articles/aa/pdf/2019/02/aa32760-18.pdf",
+      "doi": "10.1051/0004-6361/201832760",
+      "summary": "The Sun features on its surface typical flow patterns called the granulation, mesogranulation, and supergranulation. These patterns arise due to convective flows transporting energy from the interior of the Sun to its surface."
+    },
+    {
+      "name": "SunPy: Python for Solar Physics. An implementation for local correlation tracking.",
+      "publisher": "Central European Astrophysical Bulletin",
+      "releaseDate": "2014",
+      "url": "https://articles.adsabs.harvard.edu/pdf/2014CEAB...38...67C",
+      "summary": "Python programming language has experienced a great progress and growing use in the scientific community in the last years as well as a direct impact on solar physics."
+    }
+  ],
+  "skills": [
+    {
+      "name": "Physics",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Solar Physics",
+        "Electromagnetism",
+        "Special Relativity",
+        "Plasma Physcis",
+        "Fluids Mechanics",
+        "Thermodynamics",
+        "Statistical Mechanics"
+      ]
+    },
+    {
+      "name": "Programming",
+      "level": "Master",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        "Python",
+        "Matlab",
+        "IDL",
+        "Machine Learning",
+        "Image Processing"
+      ]
+    }
+  ],
+  "languages": [
+    {
+      "language": "Spanish",
+      "fluency": "Native speaker",
+      "icon": ""
+    },
+    {
+      "language": "English",
+      "fluency": "Fluent",
+      "icon": ""
+    }
+  ],
+  "interests": [
+    {
+      "name": "Science and Technology",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Medical images processing",
+        "Biophysics",
+        "Metheorology",
+        "Satellite developement"
+      ]
+    },
+    {
+      "name": "Others",
+      "icon": "fa-solid fa-tag",
+      "keywords": [
+        "Traveling",
+        "Cooking",
+        "Anime",
+        "Wine and beer tasting"
+      ]
+    }
+  ],
+  "references": [
+    {
+      "name": "Prof. Dr. Santiago Vargas Dominguez",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Professor of Solar Physics at the Observatorio Astronomico Nacional (OAN), Bogota, Colombia. He is an expert in the study proper motions and interaction with the solar magnetic field."
+    },
+    {
+      "name": "Professor Benjamin Calvo Mozo",
+      "icon": "fa-solid fa-laptop",
+      "reference": "Professor of Solar Physics at the Observatorio Astronomico Nacional (OAN), Bogota, Colombia. He is an expert in theoretical solar physics and plasma physics. He is also interested in development of astronomical instrumentation."
+    }
+  ]
+}

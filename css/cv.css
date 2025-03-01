@@ -124,3 +124,19 @@ main {
     padding: 20px;
     flex-grow: 1;
 }
+
+main img {
+    max-width: 100%;
+    height: auto;
+    margin-top: 20px;
+}
+
+main h2 {
+    font-size: 2em;
+    margin-top: 20px;
+    border-bottom: 2px solid white;
+    padding-bottom: 10px;
+}
+.item {
+    margin-bottom: 20px;
+}

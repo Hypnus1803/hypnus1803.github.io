@@ -1,41 +1,19 @@
+---
+layout: default
+title: Curriculum Vitae
+---
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Curriculum Vitae</title>
+    <!-- <title>Curriculum Vitae</title> -->
+    <title>{{ page.title }}</title>
     <link rel="stylesheet" href="../css/cv.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/showdown/2.1.0/showdown.min.js"></script>
 </head>
-<!-- <body>
-    <h1>Curriculum Vitae</h1>
-    <p>Welcome to my CV page. Here you can find details about my education, work experience, skills, and more.</p>
-    
-    <h2>Education</h2>
-    <ul>
-        <li>Degree in XYZ - University Name (Year)</li>
-        <li>Additional Certifications - Institution Name (Year)</li>
-    </ul>
-
-    <h2>Work Experience</h2>
-    <ul>
-        <li>Job Title - Company Name (Year - Year)</li>
-        <li>Job Title - Company Name (Year - Year)</li>
-    </ul>
-
-    <h2>Skills</h2>
-    <ul>
-        <li>Skill 1</li>
-        <li>Skill 2</li>
-        <li>Skill 3</li>
-    </ul>
-
-    <h2>Contact Information</h2>
-    <p>Email: your_email@example.com</p>
-    <p>LinkedIn: <a href="your_linkedin_profile">your_linkedin_profile</a></p>
-</body>
-</html> -->
-
+<body>
 <header>
     <div class="header-content">
         <div class="header-left">
@@ -59,27 +37,20 @@
         <img src="../images/my_profile.jpeg" alt="My Profile" class="profile-image">
         <h2>Jose Ivan Campos Rozo</h2>
         <p>With the sun guiding my road.</p>
-        <p><a href="mailto:rozo@asu.cas.cz"><img src="../images/icons/mail.png" alt="Email Icon"> e-mail</a></p>
+        <!-- <p><a href="mailto:rozo@asu.cas.cz"><img src="../images/icons/mail.png" alt="Email Icon"> e-mail</a></p>
         <p><a href="https://orcid.org/0000-0001-8883-6790" target="_blank"><img src="../images/icons/orcid.png" alt="ORCID Icon"> ORCID</a></p>
-        <p><a href="https://github.com/Hypnus1803" target="_blank"><img src="../images/icons/github.png" alt="GitHub Icon"> GitHub</a></p>
+        <p><a href="https://github.com/Hypnus1803" target="_blank"><img src="../images/icons/github.png" alt="GitHub Icon"> GitHub</a></p> -->
+        {% for section in site.data.resume %}
+            <a href="#{{ section[0] }}">{{ section[0] | capitalize }}</a><br>
+        {% endfor %}
     </aside>
     <!-- <main id="content"></main> -->
-     <main>
-    <h1>Curriculum Vitae</h1>
-    <p>Welcome to my CV page. Here you can find details about my education, work experience, skills, and more.</p>
-     </main>
+    <main id="content">
+        <h1>Curriculum Vitae</h1>
+        <p>Welcome to my CV page. Here you can find details about my education, work experience, skills, and more.</p>
+        {% include resume.html %}
+    </main>
 </div>
-<!-- <script>
-    fetch('../content/lorem_ipsum.md')
-        .then(response => response.text())
-        .then(text => {
-            const converter = new showdown.Converter();
-            document.getElementById('content').innerHTML = converter.makeHtml(text);
-        })
-        .catch(error => {
-            console.error('Error fetching or rendering Markdown:', error);
-        });
-</script> -->
 
 </body>
 </html>
