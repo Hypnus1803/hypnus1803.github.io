@@ -2,6 +2,7 @@ body {
     background: url('../images/background_profile.jpg') repeat;
     color: white;
     font-family: Arial, sans-serif;
+    overflow-x: hidden;
 }
 
 header {
@@ -55,6 +56,7 @@ nav ul {
     padding: 0;
     display: flex;
     gap: 20px;
+    
 }
 
 nav ul li {
@@ -77,6 +79,8 @@ nav ul li a img.home-icon {
 .container {
     display: flex;
     margin-top: 100px;
+    overflow-x: auto;
+    position: relative;
 }
 
 aside {
@@ -88,6 +92,10 @@ aside {
     left: 0;
     height: calc(100% - 100px);
     overflow-y: auto;
+    flex-shrink: 0;
+    z-index: 1;
+    /* backdrop-filter: blur(10px); */
+    
 }
 
 .profile-image {
@@ -148,6 +156,8 @@ main {
     margin-left: 270px;
     padding: 20px;
     flex-grow: 1;
+    overflow-x: auto;
+    position: relative;
 }
 
 main img {
@@ -166,4 +176,60 @@ main h2 {
 }
 .item {
     margin-bottom: 20px;
+    width: 100%;
+}
+
+section {
+    padding-top: 100px; /* Adjust this value based on the height of your header */
+    margin-top: -100px; /* Adjust this value based on the height of your header */
+}
+
+.section-box {
+    border: 2px solid #008fd4;
+    border-radius: 15px;
+    padding: 20px;
+    margin-bottom: 40px;
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.section-box p {
+    margin: 5px 0;
+}
+
+.tabulated-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+
+.tabulated-content p {
+    display: flex;
+    flex: 1 1 100%;
+    margin: 5px 0;
+}
+
+.tabulated-content p strong {
+    display: inline-block;
+    width: 150px; /* Adjust this value as needed */
+    flex-shrink: 0;
+    vertical-align: top;
+}
+
+/* Add this section to style links and email addresses */
+a, a:visited {
+    color: #4d6bfe; /* Highlight color */
+    text-decoration: none; /* Remove underline */
+}
+
+a:hover, a:focus {
+    text-decoration: underline; /* Underline on hover */
+}
+
+/* Ensure email links are also styled */
+a[href^="mailto:"] {
+    color: #4d6bfe; /* Highlight color */
+}
+
+a[href^="mailto:"]:hover, a[href^="mailto:"]:focus {
+    text-decoration: underline; /* Underline on hover */
 }

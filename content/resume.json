@@ -1,35 +1,31 @@
 {
   "basics": {
     "name": "Jose Ivan Campos Rozo",
-    "label": "Scientist",
+    "position": "Scientist / Postdoc researcher",
     "image": "",
     "email": "jose.ivan.campos.rozo@asu.cas.cz",
     "phone": "(+420) 603 591 439 ",
     "url": "https://hypnus1803.github.io/",
     "summary": "An enthusiastic physicist, working and playing around with solar images. Trying to understand our star and its behavior.",
-    "location": {
-      "address": "Fri&#269ova 298",
-      "postalCode": "251 65",
-      "city": "Ond&#345ejov",
-      "countryCode": "CZ",
-      "region": "Czech Republic"
-    },
-    "profiles": [
-      {
-        "network": "X (Former Twitter)",
-        "username": "hypnus1003",
-        "url": "https://x.com/hypnus1003"
-      }
-    ]
+    "location": "Fri&#269ova 298, 251 65, Ond&#345ejov, Czech Republic."
+    
   },
   "work": [
     {
-      "name": "Astronomical Institute of the Czech Academy of Sciences",
+      "Institution": "Astronomical Institute of the Czech Academy of Sciences",
       "position": "Postdoctoral researcher",
       "url": "https://www.asu.cas.cz/en/departments/solar-department",
       "startDate": "2023-10-03",
       "endDate": "",
       "summary": "Working in the understanding of the solar atmosphere and its magnetic field. Using data from the Solar Dynamics Observatory (SDO) and ground-based telescopes such as Gregor and SST.",
+      "highlights": ["Solar Physics"]
+    },
+    {
+      "Insitution": "Observatorio Astron&#243mico Nacional - Universidad Nacional de Colombia",
+      "position": "Associated professor (ad-honorem)",
+      "startDate": "2024-10-18",
+      "endDate": "",
+      "summary": "Co-advisor of Master-degree students. Collaborating during the graduated courses of the Master in Astronomy. Lecturing in difference courses given by the institute.",
       "highlights": ["Solar Physics"]
     }
   ],
@@ -48,9 +44,9 @@
     },
     {
       "institution": "Universidad de Colombia",
-      "location": "Bogota, Colombia",
+      "location": "Bogot&#225, Colombia",
       "url": "https://unal.edu.co/",
-      "area": "Observatorio Astronomico Nacional",
+      "area": "Observatorio Astron&#243mico Nacional",
       "studyType": "Magister",
       "startDate": "2015-01-31",
       "endDate": "2016-12-08",
