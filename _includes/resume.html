@@ -1,4 +1,4 @@
-{% for section in site.data.resume %}
+<!-- {% for section in site.data.resume %}
     <section id="{{ section[0] }}">
         <h2>{{ section[0] | capitalize }}</h2>
         {% if section[1] %}
@@ -17,4 +17,9 @@
             {% endif %}
         {% endif %}
     </section>
+{% endfor %} -->
+
+{% for section in site.data.resume %}
+    <h2>{{ section[0] | capitalize }}</h2>
+    <pre>{{ section[1] | inspect }}</pre>
 {% endfor %}
