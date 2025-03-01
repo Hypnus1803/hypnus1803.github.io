@@ -10,61 +10,61 @@ theme: minima
 plugins:
   - jekyll-feed
 
-# Include the _data directory
-include:
-  - _data
+# # Include the _data directory
+# include:
+#   - _data
 
-# Exclude from processing
-exclude:
-  - README.md
-  - Gemfile
-  - Gemfile.lock
-  - node_modules
-  - vendor
-  - .gitignore
-  - .gitmodules
-  - .sass-cache
-  - .jekyll-cache
-  - .jekyll-metadata
-  - .DS_Store
-  - .vscode
-  - .vscodeignore
-  - .vscode/settings.json
-  - .vscode/tasks.json
-  - .vscode/launch.json
+# # Exclude from processing
+# exclude:
+#   - README.md
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor
+#   - .gitignore
+#   - .gitmodules
+#   - .sass-cache
+#   - .jekyll-cache
+#   - .jekyll-metadata
+#   - .DS_Store
+#   - .vscode
+#   - .vscodeignore
+#   - .vscode/settings.json
+#   - .vscode/tasks.json
+#   - .vscode/launch.json
 
-# Plug-ins
-plugins:
-  - jekyll-archives
-  - jekyll-email-protect
-  - jekyll-feed
-  - jekyll-get-json
-  - jekyll-imagemagick
-  - jekyll-jupyter-notebook
-  - jekyll-link-attributes
-  - jekyll-minifier
-  - jekyll-paginate-v2
-  - jekyll-regex-replace
-  - jekyll/scholar
-  - jekyll-sitemap
-  - jekyll-tabs
-  - jekyll-toc
-  - jekyll-twitter-plugin
-  - jemoji
+# # Plug-ins
+# plugins:
+#   - jekyll-archives
+#   - jekyll-email-protect
+#   - jekyll-feed
+#   - jekyll-get-json
+#   - jekyll-imagemagick
+#   - jekyll-jupyter-notebook
+#   - jekyll-link-attributes
+#   - jekyll-minifier
+#   - jekyll-paginate-v2
+#   - jekyll-regex-replace
+#   - jekyll/scholar
+#   - jekyll-sitemap
+#   - jekyll-tabs
+#   - jekyll-toc
+#   - jekyll-twitter-plugin
+#   - jemoji
 
-jekyll_get_json:
-  - data: resume
-    json: content/resume.json # it can also be an url
-jsonresume:
-  - basics
-  - work
-  - education
-  - publications
-  - projects
-  - volunteer
-  - awards
-  - certificates
-  - skills
-  - languages
-  - interests
-  - references
+# jekyll_get_json:
+#   - data: resume
+#     json: content/resume.json # it can also be an url
+# jsonresume:
+#   - basics
+#   - work
+#   - education
+#   - publications
+#   - projects
+#   - volunteer
+#   - awards
+#   - certificates
+#   - skills
+#   - languages
+#   - interests
+#   - references

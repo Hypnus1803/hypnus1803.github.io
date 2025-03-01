@@ -83,21 +83,21 @@ function renderSectionLinks(data) {
     }
 }
 
-function addSmoothScroll() {
-    const links = document.querySelectorAll('.section-links a');
-    links.forEach(link => {
-        link.addEventListener('click', function (event) {
-            event.preventDefault();
-            const targetId = this.getAttribute('href').substring(1);
-            const targetElement = document.getElementById(targetId);
-            const headerOffset = 1; // Adjust this value based on the height of your header
-            const elementPosition = targetElement.getBoundingClientRect().top;
-            const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
+// function addSmoothScroll() {
+//     const links = document.querySelectorAll('.section-links a');
+//     links.forEach(link => {
+//         link.addEventListener('click', function (event) {
+//             event.preventDefault();
+//             const targetId = this.getAttribute('href').substring(1);
+//             const targetElement = document.getElementById(targetId);
+//             const headerOffset = 1; // Adjust this value based on the height of your header
+//             const elementPosition = targetElement.getBoundingClientRect().top;
+//             const offsetPosition = elementPosition + window.pageYOffset - headerOffset;
 
-            window.scrollTo({
-                top: offsetPosition,
-                behavior: 'smooth'
-            });
-        });
-    });
-}
+//             window.scrollTo({
+//                 top: offsetPosition,
+//                 behavior: 'smooth'
+//             });
+//         });
+//     });
+// }
