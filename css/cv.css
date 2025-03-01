@@ -6,6 +6,7 @@ body {
 
 header {
     /* background: darkgray; */
+    background: rgba(20, 20, 20, 0.8);
     padding: 20px;
     position: fixed;
     width: 100%;
@@ -15,6 +16,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    backdrop-filter: blur(10px)
 }
 
 .header-content {
@@ -119,6 +121,29 @@ aside img {
     margin-right: 10px;
 }
 
+aside ul.section-links {
+    list-style: none;
+    padding: 0;
+    margin: 20px 0;
+}
+
+aside ul.section-links li {
+    margin: 10px 0;
+}
+
+aside ul.section-links li a {
+    color: white; /* Default color */
+    text-decoration: none; /* Remove underline */
+    font-weight: normal; /* Default font weight */
+}
+
+aside ul.section-links li a:hover {
+    color: #008fd4; /* Highlight color */
+    text-decoration: underline; /* Underline on hover */
+    font-weight: bold; /* Bold on hover */
+}
+
+
 main {
     margin-left: 270px;
     padding: 20px;
@@ -132,6 +157,8 @@ main img {
 }
 
 main h2 {
+    color: #008fd4;
+    font-weight: bold;
     font-size: 2em;
     margin-top: 20px;
     border-bottom: 2px solid white;
