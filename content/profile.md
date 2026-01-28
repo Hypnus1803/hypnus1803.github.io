@@ -5,7 +5,10 @@ I am a physicist specialized in [solar physics](#) and [computational astrophysi
 ## Education
 
 - Dr. rer. nat. in Physics, University of Graz (Karl-Franzens-Universität), Graz, Austria (2018–2023).
-    - Thesis: Plasma and magnetic field interaction on large- and small-scales within the solar atmosphere. [PDF](/content/PhD_thesis_JICamposR.pdf)
+    - Thesis: Plasma and magnetic field interaction on large- and small-scales within the solar atmosphere. <a href="/content/PhD_thesis_JICamposR.pdf" target="_blank" rel="noopener">PDF</a>  
+    
+
+
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. [Vivamus lacinia odio vitae vestibulum](#). Cras venenatis euismod malesuada. [Nulla facilisi](#).
 
