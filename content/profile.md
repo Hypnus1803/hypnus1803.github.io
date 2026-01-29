@@ -13,7 +13,7 @@ I am a physicist specialized in [solar physics](#) and [computational astrophysi
     - Supervisors: Prof. Dr. Santiago Vargas Domínguez and Dr. Dominik Utz.
 
 - BSc in Physics, National University of Colombia, Bogotá, Colombia (2007–2014).
-    - Undergraduate project: Dynamics of bright points on the solar photosphere.[PDF](/content/)
+    - Undergraduate project: Dynamics of bright points on the solar photosphere.[PDF](#)
     - Supervisor: Prof. MSc. Benjamín Calvo Mozo.
 
 I have presented my studies through many oral talks and posters at international conferences across continents, and I have authored several peer-reviewed publications as lead and co-author in journals such as Astronomy & Astrophysics [See: CV](/profile/cv.html).
