@@ -5,21 +5,15 @@ I am a physicist specialized in [solar physics](#) and [computational astrophysi
 ## Education
 
 - Dr. rer. nat. in Physics, University of Graz (Karl-Franzens-Universität), Graz, Austria (2018–2023).
-    - Thesis: Plasma and magnetic field interaction on large- and small-scales within the solar atmosphere. <a href="/content/PhD_thesis_JICamposR.pdf" target="_blank" rel="noopener">PDF</a>  
-    
+    - Thesis: Plasma and magnetic field interaction on large- and small-scales within the solar atmosphere. [PDF](/content/PhD_thesis_JICamposR.pdf)
+    - Supervisors: Prof. Dr. Astrid M. Veronig and Dr. Dominik Utz
 
+- MSc in Sciences – Astronomy, National University of Colombia, Bogotá, Colombia (2015–2016).
+    - Thesis: Evolution and dynamic properties of photospheric plasma in solar active regions. [PDF](/content/MSc_JICamposR.pdf)
+    - Supervisors: Prof. Dr. Santiago Vargas Domínguez and Dr. Dominik Utz.
 
+- BSc in Physics, National University of Colombia, Bogotá, Colombia (2007–2014).
+    - Undergraduate project: Dynamics of bright points on the solar photosphere.[PDF](/content/)
+    - Supervisor: Prof. MSc. Benjamín Calvo Mozo.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. [Vivamus lacinia odio vitae vestibulum](#). Cras venenatis euismod malesuada. [Nulla facilisi](#).
-
-Curabitur [non nulla sit amet nisl tempus convallis quis ac lectus](#). Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. [Curabitur aliquet quam id dui posuere blandit](#).
-
-- First item in the list
-- Second item in the list
-- Third item in the list
-
-Donec sollicitudin molestie malesuada. [Curabitur arcu erat](#), accumsan id imperdiet et, porttitor at sem. [Nulla quis lorem ut libero malesuada feugiat](#).
-
-![Sample Image](../images/sample.jpg)
-
-Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. [Proin eget tortor risus](#). Nulla porttitor accumsan tincidunt. [Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia curae](#).
+I have presented my studies through many oral talks and posters at international conferences across continents, and I have authored several peer-reviewed publications as lead and co-author in journals such as Astronomy & Astrophysics [See: CV](/profile/cv.html).

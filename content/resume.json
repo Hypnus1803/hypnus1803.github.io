@@ -2,7 +2,6 @@
   "basics": {
     "name": "Jose Ivan Campos Rozo",
     "position": "Scientist / Postdoc researcher",
-    "image": "",
     "email": "jose.ivan.campos.rozo@asu.cas.cz",
     "phone": "(+420) 603 591 439 ",
     "url": "https://hypnus1803.github.io/",
@@ -25,7 +24,7 @@
       "position": "Associated professor (ad-honorem)",
       "startDate": "2024-10-18",
       "endDate": "",
-      "summary": "Co-advisor of Master-degree students. Collaborating during the graduated courses of the Master in Astronomy. Lecturing in difference courses given by the institute.",
+      "summary": "Co-advisor of Master-degree students. Collaborating during the graduated courses of the Master in Astronomy. Lecturing in different courses given by the institute.",
       "highlights": ["Solar Physics"]
     }
   ],
@@ -34,7 +33,7 @@
     {
       "institution": "Karl-Franzens University of Graz",
       "location": "Graz, Austria",
-      "url": "https://www.uni-gra.at/",
+      "url": "https://wwwjs/cv.js.uni-gra.at/",
       "area": "Institute of Physics",
       "studyType": "PhD",
       "startDate": "2017-04-01",
@@ -43,7 +42,7 @@
       "courses": ["Solar Physics"]
     },
     {
-      "institution": "Universidad de Colombia",
+      "institution": "Universidad Nacional de Colombia",
       "location": "Bogot&#225, Colombia",
       "url": "https://unal.edu.co/",
       "area": "Observatorio Astron&#243mico Nacional",
@@ -54,7 +53,7 @@
       "courses": ["Solar Physics"]
     },
     {
-      "institution": "Universidad de Colombia",
+      "institution": "Universidad Nacional de Colombia",
       "location": "Bogota, Colombia",
       "url": "https://unal.edu.co/",
       "area": "Departamento de Fisica",
@@ -71,43 +70,37 @@
       "name": "Intermediate PostgresSQL",
       "date": "July 2021",
       "issuer": "University of Michigan",
-      "url": "https://www.coursera.org/account/accomplishments/certificate/M4VNNLNA34X2",
-      "icon": "fa-solid fa-location-dot"
+      "url": "https://www.coursera.org/account/accomplishments/certificate/M4VNNLNA34X2"
     },
     {
       "name": "Database Design and Basic SQL in PostgreSQL",
       "date": "June 2021",
       "issuer": "University of Michigan",
-      "url": "https://www.coursera.org/account/accomplishments/certificate/KG2LWVRA237M",
-      "icon": "fa-solid fa-tag"
+      "url": "https://www.coursera.org/account/accomplishments/certificate/KG2LWVRA237M"
     },
     {
       "name": "Machine Learning in the Enterprise",
       "date": "March 17, 2021",
       "issuer": "Google Cloud",
-      "url": "https://www.coursera.org/account/accomplishments/certificate/5H83UXGNJB6L",
-      "icon": "fa-solid fa-envelope"
+      "url": "https://www.coursera.org/account/accomplishments/certificate/5H83UXGNJB6L"
     },
     {
       "name": "Feature Engineering",
       "date": "February 25, 2021",
       "issuer": "Google Cloud",
-      "url": "https://www.coursera.org/account/accomplishments/certificate/5ZEA9FDVUJNV",
-      "icon": "fa-solid fa-hashtag"
+      "url": "https://www.coursera.org/account/accomplishments/certificate/5ZEA9FDVUJNV"
     },
     {
       "name": "Data-driven Astronomy",
       "date": "December, 9, 2020",
       "issuer": "The University of Sidney",
-      "url": "https://www.coursera.org/account/accomplishments/certificate/ATCL294ZJ5K5",
-      "icon": "fa-solid fa-calendar"
+      "url": "https://www.coursera.org/account/accomplishments/certificate/ATCL294ZJ5K5"
     },
     {
       "name": "Applied Machine Learning in Python",
       "date": "September 28, 2020",
       "issuer": "University of Michigan",
-      "url": "https://www.coursera.org/account/accomplishments/certificate/UK4C4FLHX9WK",
-      "icon": "fa-solid fa-clipboard-check"
+      "url": "https://www.coursera.org/account/accomplishments/certificate/UK4C4FLHX9WK"
     }
   ],
   "publications": [
@@ -138,13 +131,12 @@
   "skills": [
     {
       "name": "Physics",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "level": "Expert",
       "keywords": [
         "Solar Physics",
         "Electromagnetism",
         "Special Relativity",
-        "Plasma Physcis",
+        "Plasma Physics",
         "Fluids Mechanics",
         "Thermodynamics",
         "Statistical Mechanics"
@@ -152,8 +144,7 @@
     },
     {
       "name": "Programming",
-      "level": "Master",
-      "icon": "fa-solid fa-hashtag",
+      "level": "Expert",
       "keywords": [
         "Python",
         "Matlab",
@@ -166,19 +157,16 @@
   "languages": [
     {
       "language": "Spanish",
-      "fluency": "Native speaker",
-      "icon": ""
+      "fluency": "Native speaker"
     },
     {
       "language": "English",
-      "fluency": "Fluent",
-      "icon": ""
+      "fluency": "Fluent"
     }
   ],
   "interests": [
     {
       "name": "Science and Technology",
-      "icon": "fa-solid fa-tag",
       "keywords": [
         "Medical images processing",
         "Biophysics",
@@ -188,7 +176,6 @@
     },
     {
       "name": "Others",
-      "icon": "fa-solid fa-tag",
       "keywords": [
         "Traveling",
         "Cooking",
@@ -200,12 +187,10 @@
   "references": [
     {
       "name": "Prof. Dr. Santiago Vargas Dominguez",
-      "icon": "fa-solid fa-laptop",
       "reference": "Professor of Solar Physics at the Observatorio Astronomico Nacional (OAN), Bogota, Colombia. He is an expert in the study proper motions and interaction with the solar magnetic field."
     },
     {
       "name": "Professor Benjamin Calvo Mozo",
-      "icon": "fa-solid fa-laptop",
       "reference": "Professor of Solar Physics at the Observatorio Astronomico Nacional (OAN), Bogota, Colombia. He is an expert in theoretical solar physics and plasma physics. He is also interested in development of astronomical instrumentation."
     }
   ]
