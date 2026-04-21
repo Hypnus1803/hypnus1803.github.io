@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Crate illustration</title>
+  <desc id="desc">A minimalist drawing of a storage crate with records or magazines.</desc>
+  <rect width="640" height="480" fill="#f6efe6"/>
+  <rect x="84" y="84" width="472" height="312" rx="36" fill="#fffaf2"/>
+  <rect x="164" y="190" width="312" height="166" rx="18" fill="#b97549"/>
+  <rect x="184" y="210" width="272" height="126" rx="10" fill="#d69360"/>
+  <path d="M214 190v166M272 190v166M330 190v166M388 190v166" stroke="#986039" stroke-width="12" stroke-linecap="round"/>
+  <rect x="218" y="150" width="34" height="110" rx="8" fill="#374f6c"/>
+  <rect x="262" y="134" width="34" height="126" rx="8" fill="#c56f42"/>
+  <rect x="306" y="142" width="34" height="118" rx="8" fill="#8a9e58"/>
+  <rect x="350" y="126" width="34" height="134" rx="8" fill="#6c5c96"/>
+  <rect x="394" y="146" width="34" height="114" rx="8" fill="#d2a548"/>
+</svg>

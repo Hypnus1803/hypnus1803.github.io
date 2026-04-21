@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Desk lamp illustration</title>
+  <desc id="desc">A minimalist drawing of a floor lamp.</desc>
+  <rect width="640" height="480" fill="#f6efe4"/>
+  <rect x="84" y="84" width="472" height="312" rx="36" fill="#fffaf2"/>
+  <ellipse cx="320" cy="404" rx="136" ry="20" fill="#e6d4bf"/>
+  <rect x="306" y="170" width="28" height="198" rx="14" fill="#2e2923"/>
+  <path d="M256 170c0-44 28-78 72-78h58v26h-52c-25 0-46 23-46 52Z" fill="#2e2923"/>
+  <path d="M382 88c42 0 70 29 70 62 0 36-24 62-60 62h-94c-9 0-16-8-16-17 0-54 44-107 100-107Z" fill="#d8834c"/>
+  <path d="M254 368h132" stroke="#2e2923" stroke-width="18" stroke-linecap="round"/>
+</svg>

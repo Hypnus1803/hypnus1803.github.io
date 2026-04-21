@@ -1,0 +1,144 @@
+body {
+    background: url('../images/background_profile.jpg') repeat;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    /* background: darkgray; */
+    background: rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    backdrop-filter: blur(10px)
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.header-left {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header p {
+    margin: 5px 0;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+}
+
+header a:hover {
+    text-decoration: underline;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    color: white;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
+
+nav ul li a img.home-icon {
+    width: 24px; /* Adjust the size of the home icon */
+    height: 24px; /* Adjust the size of the home icon */
+    margin-right: 5px; /* Add some space between the icon and the text */
+}
+
+.container {
+    display: flex;
+    margin-top: 100px;
+}
+
+aside {
+    /* background: darkgray; */
+    padding: 20px;
+    width: 250px;
+    position: fixed;
+    top: 100px;
+    left: 0;
+    height: calc(100% - 100px);
+    overflow-y: auto;
+}
+
+.profile-image {
+    width: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+aside h2 {
+    margin-top: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+aside p {
+    margin: 10px 0;
+}
+
+aside a {
+    color: white; /* Remove hyperlink color */
+    text-decoration: none; /* Remove underline */
+}
+
+aside a:hover {
+    text-decoration: underline; /* Underline on hover */
+}
+
+aside img {
+    width: 20px;
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
+main {
+    margin-left: 270px;
+    padding: 20px;
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 100px);
+    text-align: center;
+}
+
+main h1 {
+    font-size: 2em;
+    margin-bottom: 20px;
+}
+
+.center-image {
+    max-width: 100%;
+    height: auto;
+}

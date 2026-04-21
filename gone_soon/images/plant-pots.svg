@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Plant pots illustration</title>
+  <desc id="desc">A minimalist drawing of several plant pots.</desc>
+  <rect width="640" height="480" fill="#f7f0e7"/>
+  <rect x="84" y="84" width="472" height="312" rx="36" fill="#fffaf2"/>
+  <path d="M228 256c0-46 30-92 68-92 38 0 68 46 68 92" fill="none" stroke="#6e8b50" stroke-width="18" stroke-linecap="round"/>
+  <path d="M356 246c0-42 24-86 58-86 34 0 58 44 58 86" fill="none" stroke="#88a95f" stroke-width="16" stroke-linecap="round"/>
+  <path d="M174 262c0-34 22-72 50-72 28 0 50 38 50 72" fill="none" stroke="#8ba35f" stroke-width="14" stroke-linecap="round"/>
+  <path d="M180 294h88l-14 82h-60l-14-82Z" fill="#cc8752"/>
+  <path d="M268 282h108l-16 94h-76l-16-94Z" fill="#b66d41"/>
+  <path d="M390 300h90l-14 76h-62l-14-76Z" fill="#d59a65"/>
+  <ellipse cx="224" cy="294" rx="52" ry="12" fill="#e7c3a0"/>
+  <ellipse cx="322" cy="282" rx="64" ry="12" fill="#cf8c5b"/>
+  <ellipse cx="435" cy="300" rx="53" ry="12" fill="#e7c3a0"/>
+</svg>

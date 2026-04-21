@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Side table illustration</title>
+  <desc id="desc">A minimalist drawing of a round side table.</desc>
+  <rect width="640" height="480" fill="#f7efe5"/>
+  <rect x="84" y="84" width="472" height="312" rx="36" fill="#fffaf2"/>
+  <ellipse cx="320" cy="176" rx="146" ry="44" fill="#b87848"/>
+  <ellipse cx="320" cy="168" rx="146" ry="40" fill="#d7945e"/>
+  <path d="M244 344 292 204" stroke="#81532f" stroke-width="18" stroke-linecap="round"/>
+  <path d="M396 344 348 204" stroke="#81532f" stroke-width="18" stroke-linecap="round"/>
+  <path d="M274 344h92" stroke="#81532f" stroke-width="18" stroke-linecap="round"/>
+  <ellipse cx="320" cy="372" rx="124" ry="18" fill="#ead8c1"/>
+</svg>

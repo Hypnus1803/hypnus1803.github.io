@@ -1,0 +1,48 @@
+body {
+    margin: 0;
+    min-height: 100vh;
+    padding: clamp(24px, 6vw, 56px);
+    box-sizing: border-box;
+    background: linear-gradient(145deg, #f8f3ea 0%, #e9dece 100%);
+    color: #2e261d;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+h1 {
+    margin: 0 0 20px;
+    font-size: clamp(2.2rem, 5vw, 3.4rem);
+    line-height: 1.05;
+}
+
+p {
+    max-width: 760px;
+    line-height: 1.65;
+    color: #5e5447;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 28px 0 0;
+    width: min(100%, 720px);
+    border-top: 1px solid rgba(46, 38, 29, 0.14);
+}
+
+li {
+    padding: 16px 0;
+    border-bottom: 1px solid rgba(46, 38, 29, 0.14);
+}
+
+a {
+    color: inherit;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #9a5a2c;
+}
+
+strong {
+    color: #1f1a13;
+}

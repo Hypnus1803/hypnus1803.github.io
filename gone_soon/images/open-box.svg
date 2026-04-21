@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 480" role="img" aria-labelledby="title desc">
+  <title id="title">Open box illustration</title>
+  <desc id="desc">A minimalist drawing of an open box.</desc>
+  <rect width="640" height="480" fill="#f8f1e7"/>
+  <rect x="84" y="84" width="472" height="312" rx="36" fill="#fff9f0"/>
+  <path d="M140 300h360v84c0 14-10 24-24 24H164c-14 0-24-10-24-24v-84Z" fill="#cf8f55"/>
+  <path d="M140 300 246 204h148l106 96H140Z" fill="#e5ad73"/>
+  <path d="M246 204 170 150l-52 110 22 40 106-96Z" fill="#d49b61"/>
+  <path d="M394 204 470 150l52 110-22 40-106-96Z" fill="#d49b61"/>
+  <path d="M320 204v204" stroke="#9b6132" stroke-width="12" stroke-linecap="round"/>
+</svg>
