@@ -10,6 +10,9 @@ theme: minima
 plugins:
   - jekyll-feed
 
+exclude:
+  - README.md
+
 # # Include the _data directory
 # include:
 #   - _data
