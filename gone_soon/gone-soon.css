@@ -195,9 +195,21 @@ h2 {
     margin: 18px 0 10px;
 }
 
+/* Specifically target item-headers containing a price-tag to move the price under the title */
+.item-header:has(.price-tag) {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+}
+
 .item-header > div {
     min-width: 0;
     flex: 1;
+}
+
+.item-header:has(.price-tag) > div {
+    width: 100%;
+    flex: none;
 }
 
 .item-card p,
@@ -213,7 +225,7 @@ h2 {
     align-items: center;
     justify-content: center;
     min-width: 84px;
-    padding: 8px 12px;
+    padding: 8px 14px;
     border-radius: 999px;
     font-size: 0.88rem;
     font-weight: 700;
@@ -268,6 +280,8 @@ h2 {
 
     .item-header {
         flex-direction: column;
+        align-items: flex-start; /* Keeps the badges aligned nicely to the left once elements stack on tiny displays */
+        gap: 10px;
     }
 }
 
