@@ -148,4 +148,26 @@ document.addEventListener("DOMContentLoaded", () => {
             closeModal();
         }
     });
+
+    // 7. Add '... more' indicator to truncated descriptions
+    cards.forEach(card => {
+        // Only target direct child <p> elements that are not .section-label or .meta-line
+        const descs = Array.from(card.querySelectorAll(':scope > p:not(.section-label):not(.meta-line)'));
+        descs.forEach(desc => {
+            // Only add if not already present
+            if (!desc.classList.contains('clamped-desc')) {
+                // Check if text is actually truncated
+                const lineHeight = parseFloat(getComputedStyle(desc).lineHeight);
+                const maxHeight = lineHeight * 3;
+                if (desc.scrollHeight > maxHeight + 2) { // fudge for subpixel rounding
+                    desc.classList.add('clamped-desc');
+                    // Add a span for the ellipsis and more
+                    const moreSpan = document.createElement('span');
+                    moreSpan.className = 'desc-more-indicator';
+                    moreSpan.textContent = ' ... more';
+                    desc.appendChild(moreSpan);
+                }
+            }
+        });
+    });
 });

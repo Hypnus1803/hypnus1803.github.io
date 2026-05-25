@@ -35,7 +35,7 @@ img {
 }
 
 .page-shell {
-    width: min(1120px, calc(100% - 32px));
+    width: min(1360px, calc(100% - 32px)); /* Widened the main container frame from 1120px to 1360px for a better fullscreen layout range */
     margin: 0 auto;
     padding: 28px 0 56px;
 }
@@ -127,7 +127,7 @@ h2 {
 }
 
 .item-grid {
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr)); /* Increased card column width from 240px to 320px to make them wider and less vertically stretched */
 }
 
 .panel,
@@ -217,6 +217,22 @@ h2 {
 .panel-link p {
     margin: 0;
     line-height: 1.7;
+}
+
+/* Restrict description text length inside item-cards to avoid overly elongated blocks, details are fully visible in Quick View */
+.item-card > p:not(.section-label):not(.meta-line) {
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /* Show maximum 3 lines of description */
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-bottom: 8px;
+}
+
+/* Hide long lists/specifications on main catalog screen; they are fully readable in the Quick View modal */
+.item-card ul,
+.item-card p.meta-line {
+    display: none;
 }
 
 .price-tag,
@@ -604,4 +620,15 @@ html[lang="cs"] .item-card[data-status="sold"]::before {
 html[lang="cs"] .item-card.taken::before,
 html[lang="cs"] .item-card[data-status="taken"]::before {
     content: "DAROVÁNO";
+}
+
+/* Style for the '... more' indicator on clamped descriptions */
+.clamped-desc .desc-more-indicator {
+    color: var(--accent);
+    font-weight: 600;
+    white-space: nowrap;
+    background: linear-gradient(90deg, rgba(255,255,255,0.7) 60%, rgba(255,255,255,0));
+    padding-left: 2px;
+    font-size: 0.92em;
+    letter-spacing: 0.01em;
 }
