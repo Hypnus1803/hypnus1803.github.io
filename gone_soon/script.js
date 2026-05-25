@@ -94,11 +94,46 @@ document.addEventListener("DOMContentLoaded", () => {
         document.body.style.overflow = ""; // Re-enable background scrolling
     };
 
-    // 5. Setup Card Click Listeners
+    // 5. Setup Card Click Listeners and status determination
     cards.forEach(card => {
+        // Detect current status (class or data-status)
+        let isSold = card.classList.contains("sold") || card.getAttribute("data-status") === "sold";
+        let isTaken = card.classList.contains("taken") || card.getAttribute("data-status") === "taken";
+
+        // Auto-detect based on labels/text content if not already explicitly set
+        if (!isSold && !isTaken) {
+            const sectionLabel = card.querySelector(".section-label");
+            const priceTag = card.querySelector(".price-tag, .free-tag");
+            
+            const checks = [];
+            if (sectionLabel) checks.push(sectionLabel.textContent.toLowerCase().trim());
+            if (priceTag) checks.push(priceTag.textContent.toLowerCase().trim());
+            
+            checks.forEach(text => {
+                if (text.includes("sold") || text.includes("prodáno")) {
+                    isSold = true;
+                }
+                if (text.includes("taken") || text.includes("darováno") || text.includes("převzato") || text.includes("vybráno")) {
+                    isTaken = true;
+                }
+            });
+        }
+
+        // Apply status class and data attributes if detected
+        if (isSold) {
+            card.classList.add("sold");
+            card.setAttribute("data-status", "sold");
+        } else if (isTaken) {
+            card.classList.add("taken");
+            card.setAttribute("data-status", "taken");
+        }
+
         const img = card.querySelector("img");
         if (img) {
             img.addEventListener("click", (e) => {
+                if (card.classList.contains("sold") || card.classList.contains("taken")) {
+                    return; // Prevent opening modal for sold or taken items
+                }
                 e.stopPropagation();
                 openModal(card);
             });

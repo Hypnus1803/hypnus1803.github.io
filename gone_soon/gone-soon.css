@@ -489,3 +489,98 @@ h2 {
 .nav-links a.lang-link:hover {
     background: rgba(191, 108, 58, 0.15);
 }
+
+/* ==========================================================================
+   Sold / Taken Overlays
+   ========================================================================== */
+.item-card {
+    position: relative;
+    overflow: hidden;
+}
+
+/* Semi-transparent backdrop overlay */
+.item-card.sold::after,
+.item-card.taken::after,
+.item-card[data-status="sold"]::after,
+.item-card[data-status="taken"]::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(33, 29, 24, 0.58);
+    backdrop-filter: blur(3px);
+    -webkit-backdrop-filter: blur(3px);
+    border-radius: 28px;
+    z-index: 5;
+    pointer-events: all;
+    transition: opacity 0.25s ease;
+}
+
+@media (max-width: 620px) {
+    .item-card.sold::after,
+    .item-card.taken::after,
+    .item-card[data-status="sold"]::after,
+    .item-card[data-status="taken"]::after {
+        border-radius: 22px;
+    }
+}
+
+/* Grayscale and dim background image when sold/taken */
+.item-card.sold img,
+.item-card.taken img,
+.item-card[data-status="sold"] img,
+.item-card[data-status="taken"] img {
+    cursor: default !important;
+    transform: none !important;
+    filter: grayscale(100%) contrast(0.85) brightness(0.6) !important;
+}
+
+/* Centered stamp styling */
+.item-card.sold::before,
+.item-card.taken::before,
+.item-card[data-status="sold"]::before,
+.item-card[data-status="taken"]::before {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) rotate(-12deg);
+    z-index: 6;
+    padding: 10px 24px;
+    border: 4px solid currentColor;
+    border-radius: 12px;
+    font-family: "Fraunces", serif;
+    font-size: 2.2rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.12em;
+    pointer-events: none;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.35);
+    background-color: rgba(248, 243, 236, 0.05);
+}
+
+/* Sold Stamp - vibrant red/coral */
+.item-card.sold::before,
+.item-card[data-status="sold"]::before {
+    content: "SOLD";
+    color: #ff5252;
+}
+
+/* Taken Stamp - red color as well */
+.item-card.taken::before,
+.item-card[data-status="taken"]::before {
+    content: "TAKEN";
+    color: #ff5252;
+}
+
+/* Czech translation supports using lang standard */
+html[lang="cs"] .item-card.sold::before,
+html[lang="cs"] .item-card[data-status="sold"]::before {
+    content: "PRODÁNO";
+}
+
+html[lang="cs"] .item-card.taken::before,
+html[lang="cs"] .item-card[data-status="taken"]::before {
+    content: "DAROVÁNO";
+}
