@@ -195,6 +195,11 @@ h2 {
     margin: 18px 0 10px;
 }
 
+.item-header > div {
+    min-width: 0;
+    flex: 1;
+}
+
 .item-card p,
 .panel p,
 .panel-link p {
@@ -212,6 +217,7 @@ h2 {
     border-radius: 999px;
     font-size: 0.88rem;
     font-weight: 700;
+    flex-shrink: 0;
 }
 
 .price-tag {
@@ -496,6 +502,7 @@ h2 {
 .item-card {
     position: relative;
     overflow: hidden;
+    isolation: isolate; /* Ensures perfect clipping of absolute blur overlays inside the rounded card border */
 }
 
 /* Semi-transparent backdrop overlay */
