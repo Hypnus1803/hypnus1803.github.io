@@ -223,6 +223,7 @@ h2 {
 .item-card > p:not(.section-label):not(.meta-line) {
     display: -webkit-box;
     -webkit-line-clamp: 3; /* Show maximum 3 lines of description */
+    line-clamp: 3;
     -webkit-box-orient: vertical;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -622,13 +623,12 @@ html[lang="cs"] .item-card[data-status="taken"]::before {
     content: "DAROVÁNO";
 }
 
-/* Style for the '... more' indicator on clamped descriptions */
-.clamped-desc .desc-more-indicator {
+.desc-more {
     color: var(--accent);
     font-weight: 600;
-    white-space: nowrap;
-    background: linear-gradient(90deg, rgba(255,255,255,0.7) 60%, rgba(255,255,255,0));
-    padding-left: 2px;
     font-size: 0.92em;
-    letter-spacing: 0.01em;
+    letter-spacing: 0.04em;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
 }
